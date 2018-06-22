@@ -1,0 +1,20 @@
+Create A new Skype bot
+
+https://dev.botframework.com/bots/new
+  1.download http://www.ifdattic.com/how-to-create-tunnel-with-ngrok/
+      and expose node server port
+  2.Messaging endpoint---which will be node server http post url 
+     expose it public using herok with /api/messages in end
+
+ Create micor app id and password. and register bot     
+
+     Once you register you will get https://dev.botframework.com/bots?id=Appzillon_123 page where
+     you add configure skype channel
+
+
+     Run env.sh with updated MicrosoftAppId and MicrosoftAppPassword 
+     then start node server using
+     node app.js
+
+now again open https://dev.botframework.com/bots?id=Appzillon_123 and then 
+click on skype icon and add bot to contact     
